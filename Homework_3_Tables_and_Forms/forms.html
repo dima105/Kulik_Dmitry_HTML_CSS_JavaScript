@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+  </head>
+  <body>
+    <form >
+      <fieldset>
+        <legend>Форма обратной связи</legend>
+
+        <label for="yourSurname">Ваша фамилия</label>
+        <input type="text" name="yourSurname" id="yourSurname" required>
+        <br>
+
+        <br>
+        <label for="yourName">Ваше имя</label>
+        <input type="text" name="yourName" id="yourName" required>
+        <br>
+
+        <br>
+        <label for="mobilePhone">Мобильный телефон</label>
+        <input type="tel" name="mobilePhone" id="mobilePhone" value="+375" required>
+        <br>
+
+        <br>
+        <label for="yourEmail">E-mail</label>
+        <input type="email" name="yourEmail" id="yourEmail" required>
+        <br>
+
+        <br>
+        <label for="confirmYourEmail">Confirm E-mail</label>
+        <input type="email" name="confirmYourEmail" id="confirmYourEmail" required>
+        <br>
+        
+        <br>
+        <label for="yourTopic">Тема обращения:</label>
+        <select name="yourTopic" id="yourTopic">
+          <option disabled selected>Выберите тему обращения</option>
+          <option value="changeDates">Изменить данные в личном кабинете</option>
+          <option value="cannotEnter">Не могу войти в личный кабинет</option>
+          <option value="otherTopic">Другая тема обращения</option>
+        </select>
+        <br>
+
+
+        <br>
+        <label for="yourMessage">Сообщение:</label>
+        <br>
+        <br>
+        <textarea name="yourMessage" id="yourMessage" cols="90" rows="10" placeholder="Введите текст вашего сообщения..." autofocus required></textarea>
+        <br>
+
+
+        <br>
+        <input type="file" id="file" multiple >
+        <br>
+
+        <br>
+        <input type="checkbox" name="accept" id="accept" checked required>
+        <label for="accept">Вы соглашаетесь с тем, чтобы мы обрабатывали Ваши данные для предоставления Вам обратной связи.</label>
+        <br>
+      
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
