@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  padding:20px;
+  background-color:lightgreen;
+}
+
+.header_title {
+  font-style: 26px;
+  text-decoration: overline;
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 6px;
+} 
+
+.list{
+  text-align: center;
+  list-style: none;
+  letter-spacing: 5px;
+}
+
+.list_item:nth-child(3n+2){
+  color:darkgreen;
+  text-decoration: dotted underline;
+  font-weight: bold;
+}
+
+.list_item:nth-child(3){
+  text-decoration: line-through red;
+}
+
+.title{
+text-align: center;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-style: 20px;
+font-style: italic;
+}
+
+.text{
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+.block{
+  width: 400px;
+  padding: 20px;
+}
+
+.prague{
+  margin: 30px auto 0 50px;
+  background-color: yellow;
+  border: 5px dotted;
+}
+
+.paris{
+  margin: 0 250px 0 auto;
+  background-color: lime;
+  border: 5px dashed;
+}
+
+.germany{
+  margin-left:300px;
+  background-color: slateblue;
+  border: 5px dashed;
+}
+
+.austria{
+  margin: 0 400px 30px auto;
+  background-color: lightcoral;
+  border: 5px dotted;
+}
+
