@@ -1,0 +1,111 @@
+.main_title{
+  text-align: center;
+  font-size: 70px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.title{
+  text-decoration-line: underline;
+}
+
+.block{
+  padding: 50px 50px 0 50px;
+  display: block;
+  margin: 200px auto ;
+  width: 60%;
+  max-width: 1200px;
+  border: 5px solid ;
+  border-style: solid solid dashed dashed;
+}
+
+.picture{
+  width: 250px;
+  height: 200px;
+  position:absolute;
+  top: -140px;
+  right: -150px;
+}
+
+p[class*="description"]:first-letter{
+  font-size: 50px;
+}
+
+.charlotte{
+  position: relative;
+  border-color: rgb(177, 207, 207)  ;
+  background-color: rgb(192, 238, 238) ;
+}
+
+.block_charlotte,
+.charlotte_description:first-letter,
+.charlotte_ingredients,
+.charlotte_method_of_cooking{
+  color: rgb(27, 97, 124) ;
+}
+
+.charlotte_list_of_ingredients li:nth-child(even),
+.charlotte_order_of_cooking li:nth-child(even){
+  color: rgb(85, 148, 148) ;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.charlotte_image{
+  border: 5px solid rgb(177, 207, 207) ;
+}
+
+.tiramisu{
+  position: relative;
+  border-color: rgb(112, 99, 99) ;
+  background-color: rgb(233, 230, 230);
+}
+
+.block_tiramisu,
+.tiramisu_description:first-letter,
+.tiramisu_ingredients,
+.tiramisu_method_of_cooking{
+  color: rgb(112, 99, 99) ;
+}
+
+.tiramisu_list_of_ingredients li:nth-child(odd),
+.tiramisu_order_of_cooking li:nth-child(odd){
+  color: rgb(139, 134, 134) ;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+.tiramisu_image{
+  border: 5px solid rgb(112, 99, 99) ;
+}
+
+.cookies{
+  position: relative;
+  border-color: rgb(94, 160, 128) ;
+  background-color: rgb(175, 226, 202);
+}
+
+.block_cookies,
+.cookies_description:first-letter,
+.cookies_ingredients,
+.cookies_method_of_cooking{
+  color: rgb(47, 105, 77) ;
+}
+
+.cookies_list_of_ingredients li:nth-child(3n),
+.cookies_order_of_cooking li:nth-child(3n){
+  color: rgb(66, 117, 92) ;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.cookies_image{
+  border: 5px solid rgb(157, 201, 180) ;
+}
+
+.in_addition{
+  text-align: center;
+  padding-top: 40px ;
+  font-style:italic;
+  text-decoration-line: overline;
+}
