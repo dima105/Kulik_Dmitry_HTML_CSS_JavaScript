@@ -2,26 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.container {
-  display: grid;
-  justify-items: center;
+  list-style: none;
+  text-decoration: none;
 }
 
 .grid_container{
-  display: grid;
   width: 100%;
   max-width: 1200px;
   min-height: 100vh;
-  background-color: #e7e6f4;
-  grid-template-rows: 20% auto;              
+  margin: 0 auto;
+  background-color: #e7e6f4;        
 }
 
 .header{
-  grid-row: 1;
-  display: grid;
-  align-items: center;
+  padding-top: 20px;
 }
 
 .main{
@@ -29,26 +23,28 @@
 }
 
 .title_header{
-  color: #000000;
   text-align: center;
-  font-size: 40px;
+  color: rgb(75, 69, 69);
 }
 
 .nav_list{
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
-  gap: 10px;
-  list-style: none;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 40px 0 60px 0;
 }
 
 .button{
-  font-size: 25px;
-  color: #ffffff;
-  border: none;
-  background-color:#79ca9b;
-  padding: 10px 15px;
-  border-radius: 22px;
+  display: block;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #78c99a;
+  color: white;
+  border-radius: 30px;
+  transition-duration: 1000ms;
+  transition-property: all;
 }
 
 .all_main_items {
@@ -61,31 +57,31 @@
 }
 
 .button:hover {
-  background-color: #b9bf69;
+  background-color: #c1bb1ac6;
   color: #000000;
-  transform: scale(1.1)
+  transform: scale(1.2);
 }
 
 .main_item {
-  display: grid;
   width: 200px;
   height: 200px;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  background-color: #530383;
+  background-color:#540b82;
   color: #ffffff;
-  font-size: 30px;
-  transition-duration: 1500ms;
+  font-size: 26px;
+  transition-duration: 2000ms;
 }
 
 .main_item:hover {
-  transition-duration: 1500ms;
-  transform: rotateZ(180deg);
+  transform: rotate(180deg);
 }
 
 .field_for_ball{
-  height: 30%;
-  width: 100%;
+  position: relative;
+  height: 200px;
+  padding: 0px 5px;
 }
   
 .ball {
